@@ -18,6 +18,6 @@ But now there is a problem. It exclude the remainder string that is not full. In
 """
 st = input().strip()
 n = int(input().strip())
-count_of_a = st.count("a")*int((n/len(st))) # Intial Count
+count_of_a = st.count("a")*int((n/len(st))) # Initial Count
 count_of_a += st[:n%len(st)].count("a") # Counting on the remainder string
 print(count_of_a)
