@@ -1,17 +1,19 @@
 #!/usr/bin/python
 
-# Author: Nirjas Jakilim
+"""
+Author: Nirjas Jakilim
 
-# Problem Statement:
-# Given an array of integers representing the color of each sock,
-# You have to determine how many pairs of socks with matching colors there are.
+Problem Statement:
+Given an array of integers representing the color of each sock,
+You have to determine how many pairs of socks with matching colors there are.
 
-# My Solution:
-# Each array represents the colors of the socks.
-# As we have to find the matching pairs of socks that means we have to actually find the matching number of pairs.
-# For example: Suppose 10 is a color. So, if there is another 10 in this array then we will count it as a pair.
-# So, we have to actually count the occurrence of a number and then divide it by 2 as we are only counting 2 as a pair.
+My Solution:
+Each array represents the colors of the socks.
+As we have to find the matching pairs of socks that means we have to actually find the matching number of pairs.
+For example: Suppose 10 is a color. So, if there is another 10 in this array then we will count it as a pair.
+So, we have to actually count the occurrence of a number and then divide it by 2 as we are only counting 2 as a pair.
 
+"""
 # Importing Counter library
 from collections import Counter
 if __name__== '__main__':
